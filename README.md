@@ -27,8 +27,7 @@ dự đoán bệnh tim mạch sử dụng thuật toán phân cụm mờ
 
 ## 🎯 Giới thiệu
 
-** Fuzzy C-means (FCM) ** là thuật toán phân cụm mờ (phân cụm mờ), cho phép một dữ liệu thuộc về nhiều cụm khác nhau với các thuộc tính (cấp độ thành viên) khác nhau. Khác với K-mean (phân cụm cứng) - nơi mỗi điểm chỉ thuộc duy nhất một cụm, FCM phân bổ độ thuộc thức [ 0, 1 ] cho mỗi điểm đối với từng cụm.
-** Thuật toán phân cụm mờ C-means được kế thừa và phát triển tư tưởng của thuật toán phân cụm rõ K-means. Cả hai thuật toán này đều sử dụng chung một chiến lược đó là phân cụm dữ liệu. Thuật toán phân cụm dữ liệu mờ C-means hay còn gọi tắt là thuật toán FCM (Fuzzy C-means) đã được áp dụng thành công trong việc giải quyết một số các bài toán như trong nhận dạng mẫu, xử lý ảnh, y học,...   
+** Fuzzy C-means (FCM) ** là thuật toán phân cụm mờ (phân cụm mờ), cho phép một dữ liệu thuộc về nhiều cụm khác nhau với các thuộc tính (cấp độ thành viên) khác nhau. Khác với K-mean (phân cụm cứng) - nơi mỗi điểm chỉ thuộc duy nhất một cụm, FCM phân bổ độ thuộc thức [ 0, 1 ] cho mỗi điểm đối với từng cụm. Thuật toán phân cụm mờ C-means được kế thừa và phát triển tư tưởng của thuật toán phân cụm rõ K-means. Cả hai thuật toán này đều sử dụng chung một chiến lược đó là phân cụm dữ liệu. Thuật toán phân cụm dữ liệu mờ C-means hay còn gọi tắt là thuật toán FCM (Fuzzy C-means) đã được áp dụng thành công trong việc giải quyết một số các bài toán như trong nhận dạng mẫu, xử lý ảnh, y học,...   
 
 ### Ứng dụng trong dự án
 - Phân tích mạch dữ liệu (70.000 mẫu)
