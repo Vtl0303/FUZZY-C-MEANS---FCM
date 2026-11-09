@@ -56,14 +56,14 @@ dự đoán bệnh tim mạch sử dụng thuật toán phân cụm mờ
 |  ` giới tính `  | Giới tính | int | 1 (nữ), 2 (nam) |
 |  ` chiều cao `  | Chiều cao | int | 55 - 250 cm |
 |  ` trọng lượng `  | Cân nặng | phao | 10 - 200 kg |
-|  ` ap_hi` | ​ Áp dụng tâm thu | int | -150 - 16.020 |
-|  ` ap_lo `  | Áp lực tâm lý | int | -70 - 11.000 |
+|  ` ap_hi` | ​ Huyết áp tâm thu | int | -150 - 16.020 |
+|  ` ap_lo `  | Huyết áp tâm trương | int | -70 - 11.000 |
 |  ` cholesterol` | ​ Cholesterol | int | 1 (bình thường), 2 (bình thường), 3 (cao) |
 |  ` gluc` | ​ Đường | int | 1 (bình thường), 2 (bình thường), 3 (cao) |
-|  ` khói `  | Hút thuốc | int | 0 (không), 1 (có) |
+|  ` Hút thuóc `  | Hút thuốc | int | 0 (không), 1 (có) |
 |  ` rượu `  | Uống rượu | int | 0 (không), 1 (có) |
-|  ` hoạt động `  | Hoạt động chất | int | 0 (không), 1 (có) |
-|  ` tim mạch `  |  ** Dán nhãn mục **  | int | 0 (không bệnh), 1 (có bệnh) |
+|  ` hoạt động thể chất `  | Hoạt động chất | int | 0 (không), 1 (có) |
+|  ` Mắc bệnh tim mạch `  |  ** Dán nhãn mục **  | int | 0 (không bệnh), 1 (có bệnh) |
 
 > ** Lưu ý ** : ` tuổi ` được đo bằng ngày. Notebook đã chuyển sang năm ( ` năm = tuổi / 365 ` ) để dễ dàng trực quan hóa.
 ---
